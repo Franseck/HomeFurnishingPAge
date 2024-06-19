@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 100%;
+  min-height: 100vh;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 20px;
+  background-color: #eeecec;
+  padding: 1rem;
+  box-shadow: 2px 2px 50px black;
+}
+
+.logo {
+  width: 3rem;
+  box-shadow: rgba(120, 22, 22, 0.853) 0px 4px 5px,
+    rgba(0, 0, 0, 0.12) 0px 10px 1cqw,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 10px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 30%;
+}
+.upperbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 3rem;
+  border-bottom: 2px solid #d9d9d9;
+  padding-bottom: 1.5rem;
+}
+.categories {
+  font-family: "Bellota", cursive;
+  background-color: #d9d9d9;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  border-color: rgba(128, 128, 128, 0.496);
+  flex-grow: 1;
+  margin: 1rem;
+}
+.searchbar {
+  position: relative;
+  min-width: 13rem;
+  flex-grow: 1;
+}
+
+.search {
+  width: 100%;
+  height: 2rem;
+  border-radius: 0.7rem;
+  border: none;
+  max-width: 100%;
+  text-align: center;
+}
+
+.mag {
+  position: absolute;
+  right: 8px;
+  top: 7px;
+  width: 1rem;
+}
+
+.support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.number {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.help {
+  font-size: 0.8rem;
+  padding-left: 3rem;
+}
+
+.bottombar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+  margin-bottom: 2rem;
+}
+
+.left1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid grey;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  width: 40%;
+  height: 8vh;
+}
+.left1 p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+  flex-wrap: wrap;
+}
+.menu a {
+  text-decoration: none;
+  color: #9d9292;
+}
+.sec1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/stock.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+.sofa-text {
+  padding: 1rem;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.sofa {
+  background-color: #d5dee5;
+  width: 80%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+  margin-top: 1.5rem;
+  box-shadow:  0px 13px 11px rgba(184,103,11,0.79);
+}
+
+.light {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  height: 60%;
+  background-color: #ffc868;
+  margin-left: 3rem;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.arm-pic {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  box-shadow:  0px 13px 11px rgba(184,103,11,0.79);
+}
+.arm-text {
+  width: 70%;
+  position: absolute;
+  right: 0;
+  padding: 1rem;
+  font-style: italic;
+}
+.sec2 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #aea08d;
+  text-align: center;
+ 
+}
+h3 {
+  padding-top: 1rem;
+  font-family: "Cabin Sketch", sans-serif;
+  font-size: 2rem;
+  font-style: bold;
+}
+.category-img, .products-img {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90%;
+  gap: 2rem;
+  margin-top: 4rem;
+
+  
+}
+.category-img div, .products-img div{
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+    background-color: white;
+  border-radius: 10px;
+  box-shadow:  0px 13px 11px rgba(184,103,11,0.79);
+  }
+  .category-img img, .products-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .sec3 {
+width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  margin-top: 4rem;
+  }
+
+.contact {
+  margin-top: 6rem;
+  width: 100%;
+  background-color: #aea08d;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+   font-style: normal;
+  
+  }
+  .text {
+       padding: 5rem;
+       }
+
+.text h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.text span {
+  color: orange;
+  font-family: "Playwrite AU TAS", cursive;
+  font-optical-sizing: auto;
+    font-style: normal;
+}
+  .form {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+  justify-content: center;
+    flex-direction: column;
+  }
+  .form input {
+    max-width: 20rem;
+    border: none;
+    padding: 10px 30px;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+   
+  }
+  .form label {
+    font-size: 1.5rem;
+    margin: 0.5rem ;
+  }
+  .form button {
+    margin-top: 2rem;
+padding: 1rem;
+border-radius: 10px;
+    font-style: italic;
+    width: 50%;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-family: "Cabin Sketch", sans-serif;
+    color: coral;
+  }
+  .footer-links a {
+    color: coral;
+    
+  }
